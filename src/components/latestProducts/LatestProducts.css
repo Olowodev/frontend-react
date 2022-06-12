@@ -17,8 +17,8 @@
 
 .products {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 091px;
-    grid-row-gap: 060px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 90px;
+    grid-row-gap: 60px;
+    grid-column: 1;
 }
