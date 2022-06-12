@@ -1,0 +1,5 @@
+.flexProduct {
+    display: flex;
+    margin: 0 122px;
+    justify-content: space-between;
+}

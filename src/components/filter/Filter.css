@@ -1,0 +1,54 @@
+.filter {
+    min-width: 250px;
+    font-family: 'Barlow', 'sans-serif';
+    margin-top: 20px;
+    border-right: 2px solid rgb(177, 177, 177);
+    padding-right: 10px;
+}
+
+.hline {
+    height: 2px;
+    width: 100%;
+    background-color: rgb(177, 177, 177);
+    margin: 20px 0;
+}
+
+.sectionTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    line-height: 17px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.sectionTitle h3 {
+    color: #0c509f;
+}
+
+.sectionDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+.sectionStart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sectionStart input {
+    width: 25px;
+    height: 25px;
+}
+
+.vline {
+    width: 2px;
+    height: 100%;
+}
