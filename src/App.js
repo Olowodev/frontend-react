@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom'
 import Home from './pages/home/Home';
 import Products from './pages/products/Products';
+import SinglePage from './pages/singlePage/SinglePage';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/stickers' element={<Products />} />
-
+          <Route path='/single' element={<SinglePage />} />
         </Routes>
       </Router>
     </div>
