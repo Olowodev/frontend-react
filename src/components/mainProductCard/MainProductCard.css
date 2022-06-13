@@ -1,0 +1,54 @@
+.mainCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainImg img {
+    width: 250px;
+    height: 200px;
+}
+
+.mainDesc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mainDesc p:first-child {
+    font-size: 20px;
+}
+
+.mainDesc p:last-child {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.mainButtons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.mainBuyButton {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #008542;
+    color: white;
+    font-weight: 600;
+    padding: 16px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.mainLikeButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+    color: #d42114;
+    border: 1px solid rgb(102, 102, 102);
+}
