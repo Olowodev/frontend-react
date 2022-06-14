@@ -7,7 +7,7 @@ import SingleProduct from '../../components/singleProduct/SingleProduct'
 
 const SinglePage = () => {
   return (
-    <div>
+    <div className='singlePage'>
         <Notification />
         <Navbar />
         <SingleProduct />

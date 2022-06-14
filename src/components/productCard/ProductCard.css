@@ -12,6 +12,8 @@
 
 .productTop img  {
     width: 350px;
+    object-fit: contain;
+    height: 240px;
 }
 
 .productBottom {

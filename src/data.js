@@ -1,4 +1,4 @@
-import decal from './images/decal3.png'
+import decal from './images/decal5.png'
 import decal1 from './images/decal1.png'
 import decal4 from './images/decal4.png'
 
@@ -10,7 +10,12 @@ export const Products = [
     },
     {
         title: 'Rainbow Elephant Sticker',
-        img: decal,
+        img: decal1,
+        price: '$10'
+    },    
+    {
+        title: 'Rainbow Elephant Sticker',
+        img: decal4,
         price: '$10'
     },    
     {
@@ -20,7 +25,12 @@ export const Products = [
     },    
     {
         title: 'Rainbow Elephant Sticker',
-        img: decal,
+        img: decal1,
+        price: '$10'
+    },    
+    {
+        title: 'Rainbow Elephant Sticker',
+        img: decal4,
         price: '$10'
     },    
     {
@@ -30,22 +40,12 @@ export const Products = [
     },    
     {
         title: 'Rainbow Elephant Sticker',
-        img: decal,
-        price: '$10'
-    },    
-    {
-        title: 'Rainbow Elephant Sticker',
-        img: decal,
-        price: '$10'
-    },    
-    {
-        title: 'Rainbow Elephant Sticker',
-        img: decal,
+        img: decal4,
         price: '$10'
     },
     {
         title: 'Rainbow Elephant Sticker',
-        img: decal,
+        img: decal1,
         price: '$10'
     },
 ]

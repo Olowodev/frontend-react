@@ -1,0 +1,88 @@
+.singleProduct {
+    display: flex;
+    margin: 50px 122px;
+    gap: 100px;
+    font-family: 'Barlow', 'sans-serif';
+
+}
+
+.singleLeft {
+    flex: 1;
+}
+
+.singleRight {
+    flex: 1;
+}
+
+.singleRight li {
+    margin-top: 10px;
+}
+
+.singleRight h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.hline2 {
+    height: 1px;
+    background-color: #dddddd;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.mainPic img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.purchase {
+    display: flex;
+    gap: 30px;
+}
+
+.purchase select {
+    flex: 1;
+    padding: 10px;
+    font-size: 24px;
+    -webkit-appearance: none;
+    appearance: none;
+    padding-right: 80px;
+    cursor: pointer;
+}
+
+.select-wrapper {
+    position: relative;
+  }
+  
+  .select-wrapper::after {
+    content: "▼";
+    font-size: 1rem;
+    top: 14px;
+    right: 10px;
+    position: absolute;
+    pointer-events: none;
+  }
+
+.purchaseButton {
+    flex: 3;
+    text-align: center;
+    background-color: #008542;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Ropa Sans', 'sans-serif';
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.wishlist {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.wishlist p {
+    font-size: 20px;
+    cursor: pointer;
+}

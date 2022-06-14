@@ -9,35 +9,27 @@ import './SingleProduct.css'
 
 const SingleProduct = () => {
   return (
-    <div>
-        <div>
-            <div>
-                <div>
-                    <img src={decal1} />
-                </div>
-                <div>
-                    <img src={decal3} />
-                </div>
-                <div>
-                    <img src={decal4} />
-                </div>
-                <div>
-                    <img src={decal5} />
-                </div>
-            </div>
-            <div>
+    <div className='singleProduct'>
+        <div className='singleLeft'>
+            <div className='mainPic'>
                 <h1>Rainbow Elephant Sticker</h1>
                 <div>
                     <img src={decal1} />
                 </div>
             </div>
         </div>
-        <div>
+        <div className='singleRight'>
             <h1>$70.99</h1>
-            <div></div>
-            <p>Aviyl decal sticker to beautify any of your appliances or products</p>
-            <div></div>
-            <div>
+            <div className='hline2'></div>
+            <ul>
+                <li>Vinyl decal sticker to beautify any of your appliances or products</li>
+                <li>Vinyl decal sticker to beautify any of your appliances or products</li>
+                <li>Vinyl decal sticker to beautify any of your appliances or products</li>
+                <li>Vinyl decal sticker to beautify any of your appliances or products</li>
+            </ul>
+            <div className='hline2'></div>
+            <div className='purchase'>
+                <div className='select-wrapper'>
                 <select>
                     <option>1</option>
                     <option>2</option>
@@ -50,15 +42,17 @@ const SingleProduct = () => {
                     <option>9</option>
                     <option>10</option>
                 </select>
-                <div>
+                </div>
+                <div className='purchaseButton'>
                     <p>Add to Bag</p>
                 </div>
             </div>
-            <div></div>
-            <div>
-                <FaRegHeart />
+            <div className='hline2'></div>
+            <div className='wishlist'>
+                <FaRegHeart style={{color : '#d42114', fontSize: '24px'}} />
                 <p>Add to Your Wishlist</p>
             </div>
+            <div className='hline2'></div>
         </div>
     </div>
   )
